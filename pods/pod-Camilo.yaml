@@ -15,4 +15,13 @@ spec:
     - key: "music"
       operator: "Equal"
       value: "perreo-intenso"
-      effect: "NoSchedule"
+      effect: "NoSchedule"
+affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - key: style
+                operator: In
+                values:
+                  - urbano
