@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: reggaeton
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: rock
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: techno
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: salsa
