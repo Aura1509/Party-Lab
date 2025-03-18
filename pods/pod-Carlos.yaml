@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: technologo-loco
+  namespace: techno
+  annotations:
+    lider: "Laura"
+    student: "Carlos"
+    music-preference: "techno"
+spec:
+  containers:
+    - name: technologo
+      image: nginx
+  tolerations:
+    - key: "music"
+      operator: "Equal"
+      value: "bass-boost"
+      effect: "NoSchedule"
