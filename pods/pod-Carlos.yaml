@@ -16,3 +16,12 @@ spec:
       operator: "Equal"
       value: "bass-boost"
       effect: "NoSchedule"
+  affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - key: style
+                operator: In
+                values:
+                  - electronico
