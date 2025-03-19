@@ -7,9 +7,9 @@ metadata:
     lider: "Laura"
     student: "Sebastian"
     music-preference: "techno"
-    spec:
+spec:
   containers:
-    - name: Carl-Cox-King
+    - name: carl-cox-king 
       image: nginx
   tolerations:
     - key: "music"

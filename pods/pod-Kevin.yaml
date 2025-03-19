@@ -9,7 +9,7 @@ metadata:
     music-preference: "reggaeton"
 spec:
   containers:
-    - name: Daddy-Yankee
+    - name: daddy-yankee
       image: nginx
   tolerations:
     - key: "music"

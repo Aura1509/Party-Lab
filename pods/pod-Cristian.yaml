@@ -9,7 +9,7 @@ metadata:
     music-preference: "rock"
 spec:
   containers:
-    - name: Aerosmith
+    - name: aerosmith
       image: nginx
   tolerations:
     - key: "music"
